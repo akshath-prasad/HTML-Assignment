@@ -1,0 +1,99 @@
+body{
+    background-color: #ffffff;
+    font-family : Arial;
+    text-align: center;
+    margin: 0px;
+}
+hr{
+    margin: 0;
+}
+#logo{
+    margin: 8px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    font-size:x-large;
+    color: rgb(203, 0, 0);
+    display: block;
+    width: 200px;
+    margin: 0;
+    float: left;
+}
+#nav{
+    display: flex;
+    width: 800px;
+    height: 35px;
+    padding: 0px;
+    margin-top: 5px;
+    
+}
+#nav a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+.navbar{
+    margin: 0;
+    padding: 10px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255,255,255);
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+    
+}
+#mainimg{
+    margin: 8px;
+    filter: brightness(40%);
+}
+#head{
+    
+    text-align: center;
+    height: 835px;
+    width: 1520px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+#mainimg:hover{
+    filter: brightness(30%);
+    border-radius: 50px;
+}
+#head p{
+    box-sizing: content-box;
+    margin-bottom: 5px;
+    
+    margin-top: 0px;
+}
+
+#CourseName{
+    margin: 8px;
+    text-decoration : underline;
+    font-size : 130%;
+    color : #000000;
+}
+.marqueeimg img{
+    width: 262px;
+    margin: 10px
+}
+#List{
+    text-align: center;
+    align-content: center;
+}
+.marqueeimg img1{
+
+}
